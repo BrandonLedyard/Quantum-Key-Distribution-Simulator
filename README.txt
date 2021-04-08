@@ -33,5 +33,3 @@ the eavesdropped is led to believe that a zero was transmitted, which is incorre
 Bob is in the same dilemma as the evesdropper but this is where the magic happens. After the transmittion, Alice tells Bob which filter was used for the
 transmittion of each photon and they agree to only use only the ones where Bob picked the correct detector, so all of the misinterpreted photons
 are discarded. This is the purpose of the keyAgreement() function. 
-
-↑
