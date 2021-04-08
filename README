@@ -15,7 +15,7 @@ the filter is represented by a 'x'.
 
 Alice will alter between the two possible filters randomly. Consider the following binary message: 
 
-Message: 1 1 0 1 1 0 1 0 0 1
+Message: 1 1 0 1 1 0 1 0 0 1 
 Filter:  t x t x x x t t x x
 Result:  ↑ ↗ → ↗ ↗ ↖ ↑ → ↖ ↗
 
