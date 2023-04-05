@@ -1,6 +1,6 @@
 # Quantum-Key-Distribution-Simulator
 
-This program is a quantum-key exchange simulator. 
+This program is a quantum-key exchange simulator (BB84). 
 
 The inspiration for this program comes from chapter 8 of a great book I read called "The Code Book" by Simon Singh which details past, present and future cryptographic schemes and algorithms. 
 
@@ -17,3 +17,5 @@ Let's suppose an eavesdropper (Eve for short) were to try to intercept the messa
 For example, if the 'x' filter is used by Eve to measure the first photon in the message above ↑, it will be misread as as ↖ or ↗. If it misread as ↗ then that is fine for Eve since it was intended to represent a one anyways. If it is misread as ↖ then that is an issue for Eve since Eve is now under the impression that a zero was transmitted, which is incorrect. 
 
 Bob is in the same dilemma as Eve but this is where a critical step takes place. After the transmittion, Alice tells Bob which filter was used for the transmittion of each photon and they agree to only use the ones where Alice and Bob picked the same detector. All of the misread photons are discarded which leaves them both with the same key. 
+
+If the keys are different then they know that there was an eveasdropper on the line! They check this by exchanging a predetermined subset over the line. If this is the case they simply re-try transmittion.
