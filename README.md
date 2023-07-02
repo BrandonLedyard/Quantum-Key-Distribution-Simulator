@@ -6,7 +6,7 @@ The inspiration for this program comes from chapter 8 of a great book I read cal
 
 There will come a time in the future when RSA can no longer be used for secure key exchange due to the existence of quantum computers and the speed at which they are able to solve factorization problems. The following key exchange scheme can be used to securely exchange keys using fundamental aspects of quantum mechanics surronding measurement.
 
-Imagine Alice and Bob want to exchange a binary message, a key, The message will be composed of ones are zeros which will be represented by photons oriented in a certain manner up or down. When Alice sends the key to Bob, each photon can be transmitted with a rectinilear filter or a diagonal filter. For photons transmitted rectinilearly, a one is representated by a ↑, a zero is represented by a → and the filter is represented by a 't'. Likewise, for photons transmitted diagonally, a one is represented by a ↗, a zero is represented by a ↖ and the filter is represented by an 'x'. 
+Imagine Alice and Bob want to exchange a binary message, a key. The message will be composed of ones are zeros which will be represented by photons oriented in a certain manner up or down. When Alice sends the key to Bob, each photon can be transmitted with a rectinilear filter or a diagonal filter. For photons transmitted rectinilearly, a one is representated by a ↑, a zero is represented by a → and the filter is represented by a 't'. Likewise, for photons transmitted diagonally, a one is represented by a ↗, a zero is represented by a ↖ and the filter is represented by an 'x'. 
 
 Alice will alter between the two filters randomly. Consider the following binary message:
 
